@@ -6,8 +6,8 @@ Baseline Repo: https://github.com/mohakapoor/Network_Anomaly_Detection_CICIDS201
 
 Step 1: Clone the GitHub repository
 
-	git clone <your-github-repo>
-	cd <your repo directory>
+	git clone https://github.com/nburton101/NIDS_CY530.git
+	cd NIDS_CY530
 
 Step 2: Install Python 3.11
 	
