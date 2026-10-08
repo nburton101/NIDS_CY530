@@ -18,8 +18,8 @@ Step 2: Install Python 3.11
 
 Step 3: Install needed packages
 	
-	pip install -r requirements.txt
-	pip install nbconvert ipykernel
+	uv pip install -r requirements.txt
+	uv pip install nbconvert ipykernel
 
 Step 4: Download CICIDS2017 dataset[https://www.unb.ca/cic/datasets/ids-2017.html] (MachineLearningCSV.zip) from the CICIDS2017 website & place extracted CSV files in raw/ 
 
