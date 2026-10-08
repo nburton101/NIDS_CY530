@@ -29,7 +29,9 @@ create a raw directory
 	
 place extracted CSV files in raw/ 
 
-Step 5: Run the preprocessing notebooks from the baseline in the repo
+Step 5: Create a 'final' directory and run the preprocessing notebooks from the baseline in the repo
+
+	mkdir final
 	
 	Run the following notebooks in order:
 		1) jupyter nbconvert --to notebook --execute split.ipynb --output split_executed.ipynb
