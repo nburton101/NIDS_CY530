@@ -36,6 +36,18 @@ Step 5: Create a 'final' directory and run the preprocessing notebooks from the 
 	Run the following notebooks in order:
 		1) jupyter nbconvert --to notebook --execute split.ipynb --output split_executed.ipynb
 		2) jupyter nbconvert --to notebook --execute cleaning.ipynb --output cleaning_executed.ipynb
+
+Edit preprocessing.ipynb to proper Linux file path
+	nano preprocessing.ipynb
+	Find these two lines near the end of the notebook:
+		mc_train.to_parquet(r'final\\train_mc.parquet')
+		mc_test.to_parquet(r'final\\test_mc.parquet')
+	Change these lines to:
+		mc_train.to_parquet(r'final/train_mc.parquet')
+		mc_test.to_parquet(r'final/test_mc.parquet')
+	Press Ctrl+O (the letter 'o'), then Enter, then Ctrl+X
+
+	Run final notebook
 		3) jupyter nbconvert --to notebook --execute preprocessing.ipynb --output preprocessing_executed.ipynb
 
 	The notebooks will then create:
