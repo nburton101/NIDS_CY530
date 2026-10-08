@@ -21,7 +21,13 @@ Step 3: Install needed packages
 	uv pip install -r requirements.txt
 	uv pip install nbconvert ipykernel
 
-Step 4: Download CICIDS2017 dataset[https://www.unb.ca/cic/datasets/ids-2017.html] (MachineLearningCSV.zip) from the CICIDS2017 website & place extracted CSV files in raw/ 
+Step 4: Download CICIDS2017 dataset[https://www.unb.ca/cic/datasets/ids-2017.html] (MachineLearningCSV.zip) from the CICIDS2017 website 
+
+create a raw directory
+	bash
+	mkdir raw
+	
+place extracted CSV files in raw/ 
 
 Step 5: Run the preprocessing notebooks from the baseline in the repo
 	
