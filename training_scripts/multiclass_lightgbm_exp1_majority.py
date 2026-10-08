@@ -13,7 +13,7 @@ from scipy.stats import loguniform
 warnings.filterwarnings("ignore")
 
 
-TRAIN_PATH = Path("final/train_mc.parquet")
+TRAIN_PATH = Path("final/train_mc_exp1_majority.parquet")
 TEST_PATH = Path("final/test_mc.parquet")
 OUT_DIR = Path("models/lightgbm")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
